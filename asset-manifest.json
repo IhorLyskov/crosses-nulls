@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/crosses-nulls/static/css/main.f82cd3c0.css",
-    "main.js": "/crosses-nulls/static/js/main.058c5358.js",
+    "main.js": "/crosses-nulls/static/js/main.94d63815.js",
     "index.html": "/crosses-nulls/index.html",
     "main.f82cd3c0.css.map": "/crosses-nulls/static/css/main.f82cd3c0.css.map",
-    "main.058c5358.js.map": "/crosses-nulls/static/js/main.058c5358.js.map"
+    "main.94d63815.js.map": "/crosses-nulls/static/js/main.94d63815.js.map"
   },
   "entrypoints": [
     "static/css/main.f82cd3c0.css",
-    "static/js/main.058c5358.js"
+    "static/js/main.94d63815.js"
   ]
 }
