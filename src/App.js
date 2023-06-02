@@ -1,4 +1,6 @@
+import React from 'react';
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 
 function Square({ value, onSquareClick }) {
   return (
@@ -7,6 +9,11 @@ function Square({ value, onSquareClick }) {
     </button>
   );
 }
+
+Square.propTypes = {
+  value: PropTypes.element,
+  onSquareClick: PropTypes.func,
+};
 
 function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
@@ -21,6 +28,12 @@ function Board({ xIsNext, squares, onPlay }) {
     }
     onPlay(nextSquares);
   }
+
+  Board.propTypes = {
+    xIsNext: PropTypes.bool,
+    squares: PropTypes.array,
+    onPlay: PropTypes.func,
+  };
 
   const winner = calculateWinner(squares);
   let status;
