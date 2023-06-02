@@ -5,10 +5,15 @@
     "react-scripts": "^5.0.0"
   },
   "main": "/index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-react": "^7.32.2"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "browserslist": {
     "production": [
