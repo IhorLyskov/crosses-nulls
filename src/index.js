@@ -8,9 +8,9 @@ import App from './App';
 const root = createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
-    <BrowserRouter basename="/crosses-nulls/">
+    <BrowserRouter>
+      {/* <BrowserRouter basename="/crosses-nulls/"> */}
       <App />
     </BrowserRouter>
   </StrictMode>
 );
-

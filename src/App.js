@@ -15,7 +15,7 @@ Square.propTypes = {
   onSquareClick: PropTypes.func,
 };
 
-function Board({ xIsNext, squares, onPlay })  {
+function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
     if (calculateWinner(squares) || squares[i]) {
       return;
@@ -67,7 +67,7 @@ function Board({ xIsNext, squares, onPlay })  {
   );
 }
 
-export default function Game() {
+export default function App() {
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [currentMove, setCurrentMove] = useState(0);
   const xIsNext = currentMove % 2 === 0;
